@@ -6,8 +6,8 @@ class SamlAuth < Formula
     version "v2.0.0"
   
     def install
-      bin.install "saml.sh" => "saml"
-      bin.install "eks.sh" => "eks"
+      bin.install "bin/saml.sh" => "saml"
+      bin.install "bin/eks.sh" => "eks"
     end
   
     test do
