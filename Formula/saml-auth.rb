@@ -1,9 +1,9 @@
 class SamlAuth < Formula
     desc "SamlAuth for AWS SAML authentication and EKS management"
     homepage "https://github.com/FathAllaTechOps/saml-auth"
-    url "https://github.com/FathAllaTechOps/saml-auth/archive/v2.0.0.tar.gz"
-    sha256 "f68078e7be381078b518fecbeab76ce6e2f93d191341da237940087c5ca010d6"
-    version "v2.0.0"
+    url "https://github.com/FathAllaTechOps/saml-auth/archive/v3.0.0.tar.gz"
+    sha256 "9538c4f8bd98215b7b50b5e25862eb64849d0ad461c1510ac409afa0cd4b3ae4"
+    version "v3.0.0"
   
     def install
       bin.install "bin/saml.sh" => "saml"
